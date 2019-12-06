@@ -1,0 +1,6 @@
+C:\AutoApp\AutoApp\AutoApp\obj\Debug\AutoApp.csprojAssemblyReference.cache
+C:\AutoApp\AutoApp\AutoApp\bin\Debug\AutoApp.exe.config
+C:\AutoApp\AutoApp\AutoApp\bin\Debug\AutoApp.exe
+C:\AutoApp\AutoApp\AutoApp\bin\Debug\AutoApp.pdb
+C:\AutoApp\AutoApp\AutoApp\obj\Debug\AutoApp.exe
+C:\AutoApp\AutoApp\AutoApp\obj\Debug\AutoApp.pdb
