@@ -8,6 +8,7 @@ namespace AutoApp
 {
     class Help
     {
+        //Just a help class that displays information on switches provided.
         public string HelpInfo(string[] args)
         {
             var helpInfo = "";

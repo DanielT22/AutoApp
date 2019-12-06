@@ -25,37 +25,37 @@ namespace AutoApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string AppName1 {
+        [global::System.Configuration.DefaultSettingValueAttribute("MyApp")]
+        public string MyApp {
             get {
-                return ((string)(this["AppName1"]));
+                return ((string)(this["MyApp"]));
             }
             set {
-                this["AppName1"] = value;
+                this["MyApp"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string AppName2 {
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\dtakacs\\Desktop\\Test\\RemoteDirectory")]
+        public string MyAppRemotePath {
             get {
-                return ((string)(this["AppName2"]));
+                return ((string)(this["MyAppRemotePath"]));
             }
             set {
-                this["AppName2"] = value;
+                this["MyAppRemotePath"] = value;
             }
         }
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
-        public string AppName3 {
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\dtakacs\\Desktop\\Test\\LocalDirectory")]
+        public string MyAppLocalPath {
             get {
-                return ((string)(this["AppName3"]));
+                return ((string)(this["MyAppLocalPath"]));
             }
             set {
-                this["AppName3"] = value;
+                this["MyAppLocalPath"] = value;
             }
         }
         
@@ -85,7 +85,7 @@ namespace AutoApp.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
         public bool SetupDone {
             get {
                 return ((bool)(this["SetupDone"]));

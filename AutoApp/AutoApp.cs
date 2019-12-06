@@ -23,14 +23,18 @@ namespace AutoApp
 
         static void Main(string[] args)
         {
+            //Initialize the startup method so we can plug in whatever we needon the main method.
             var initialize = new AutoApp();
             initialize.Startup(args);
         }
         void Startup(string[] args)
         {
+            //Initializing the classes
             var help = new Help();
             var setup = new Setup();
+            var fileSystem = new FileSystem();
 
+            //We tell the user to run the setup here first if they haven't done it yet, otherwise they won't be able to update their apps.
             if (setup.CheckIfSetupDone(SetupDone) == false)
             {
                 Console.WriteLine("You have not setup any applications yet. You can do this using -setup.");
@@ -47,41 +51,49 @@ namespace AutoApp
                 return;
             }
 
+            //The help menu takes precedence over all other commands and provides information for any arguments entered.
             if (args.Contains<string>("-h") || args.Contains<string>("-help"))
             {
                 Console.WriteLine(help.HelpInfo(args));
             }
 
+            //We check each argument entered. Right now we only really use one argument at a time, so this might need more planning.
             foreach (var arg in args)
             {
                 if (arg == "-s" || arg == "-setup")
                 {
                     if (setup.CheckIfSetupDone(SetupDone) == true)
                     {
+                        //Need a way to clear the app settings.
                         Console.WriteLine("You've already setup at least one application, do you want to clear your config?");
                     }
-                    //Call the setup class
+                    setup.AddApplicationName();
                 }
 
                 if (arg == "-u" || arg == "-update")
                 {
-                    //Call the update class
+                    //We need a way to copy one app or all apps configured.
+                    fileSystem.CopyFolderLocally(args[1]);
                 }
 
                 if (arg == "-a" || arg == "-add")
                 {
+                    //We can add an app using -a followed by the AppName. We need a check to confirm -a is followed by an app name.
+                    //This checks if it already has a config.
+                    setup.DoesSettingExist(arg);
+                    var updateApp = Properties.Settings.Default.Properties;
                     setup.AddApplicationName();
-                    //Call the add application class
                 }
 
                 if (arg == "-i" || arg == "-info")
                 {
                     help.HelpInfo(args);
-                    //Call the information class
+                    //Call the information class. We need this provide information to the user.
                 }
 
                 else
                 {
+                    //Just a catch for unknown parameters.
                     Console.WriteLine("Unknown parameters. Type '-h' for a list of commands.");
                 }
             }
