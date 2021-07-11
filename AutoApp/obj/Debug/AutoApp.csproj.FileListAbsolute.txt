@@ -4,3 +4,4 @@ C:\AutoApp\AutoApp\AutoApp\bin\Debug\AutoApp.exe
 C:\AutoApp\AutoApp\AutoApp\bin\Debug\AutoApp.pdb
 C:\AutoApp\AutoApp\AutoApp\obj\Debug\AutoApp.exe
 C:\AutoApp\AutoApp\AutoApp\obj\Debug\AutoApp.pdb
+C:\AutoApp\AutoApp\AutoApp\obj\Debug\AutoApp.csproj.CoreCompileInputs.cache

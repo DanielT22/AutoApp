@@ -1,0 +1,94 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\AutoApp\\AutoApp\\AutoAppGUI\\AutoAppGUI.csproj": {}
+  },
+  "projects": {
+    "C:\\AutoApp\\AutoApp\\AutoAppGUI\\AutoAppGUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\AutoApp\\AutoApp\\AutoAppGUI\\AutoAppGUI.csproj",
+        "projectName": "AutoAppGUI",
+        "projectPath": "C:\\AutoApp\\AutoApp\\AutoAppGUI\\AutoAppGUI.csproj",
+        "packagesPath": "C:\\Users\\dtakacs\\.nuget\\packages\\",
+        "outputPath": "C:\\AutoApp\\AutoApp\\AutoAppGUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dtakacs\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\AutoApp\\AutoApp\\AutoApp\\AutoApp.csproj": {
+                "projectPath": "C:\\AutoApp\\AutoApp\\AutoApp\\AutoApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Config.Net": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.7.335, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\AutoApp\\AutoApp\\AutoApp\\AutoApp.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\AutoApp\\AutoApp\\AutoApp\\AutoApp.csproj",
+        "projectName": "AutoApp",
+        "projectPath": "C:\\AutoApp\\AutoApp\\AutoApp\\AutoApp.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

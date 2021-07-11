@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoApp", "AutoApp\AutoApp.csproj", "{05219410-5C4F-4884-8B64-B89ED795BCC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAppGUI", "AutoAppGUI\AutoAppGUI.csproj", "{0593D737-B877-4CAC-97BC-18BC184BA5A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{05219410-5C4F-4884-8B64-B89ED795BCC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05219410-5C4F-4884-8B64-B89ED795BCC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05219410-5C4F-4884-8B64-B89ED795BCC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0593D737-B877-4CAC-97BC-18BC184BA5A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0593D737-B877-4CAC-97BC-18BC184BA5A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0593D737-B877-4CAC-97BC-18BC184BA5A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0593D737-B877-4CAC-97BC-18BC184BA5A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
